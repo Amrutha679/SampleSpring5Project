@@ -25,5 +25,9 @@
 		<ref bean="kia"/>
 		</property>
 	</bean>
-	
+	<bean id="Hyderabad" class="com.travel.Travel">
+		<property name="v">
+		<ref bean="ktm"/>
+		</property>
+	</bean>
 </beans>
