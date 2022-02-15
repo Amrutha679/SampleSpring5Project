@@ -12,7 +12,6 @@ public class MainLogic {
 		car.move();
 		Bike bike = (Bike) ac.getBean("ktm");
 		bike.move();
-		
 		//System.out.println(st.getSid()+" "+st.getSname()+" "+st.getSmarks());
 	}
 }
